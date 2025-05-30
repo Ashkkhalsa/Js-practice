@@ -26,3 +26,27 @@
 //  Array = Object
 //  function = function
 //  Object = Object
+
+
+
+//****************************************Memories ****************************************************** */
+
+//  Heap(Non -Primitive) reference of original
+// Stack(Primitive) you get a copy
+
+let myYouTubeName = "Ashmeet.com"
+let anotherName = myYouTubeName
+anotherName = "chaiaurcode"
+
+console.log(anotherName);
+console.log(myYouTubeName);
+
+let user1= {
+    email : "ash@gmail.com",
+    upi: "user@ybl"
+}
+let user2 = user1
+user2.email="gurjas@gmail.com"
+
+console.log(user1.email);
+console.log(user2.email);
